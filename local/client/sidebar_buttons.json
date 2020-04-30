@@ -6,5 +6,8 @@
 	},
 	"ftbquests": {
 		"quests": true
+	},
+	"ftbmoney": {
+		"shop": true
 	}
 }

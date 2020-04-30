@@ -19,6 +19,7 @@
   "custommainmenu": "2.0.9.1",
   "dropt": "1.12.2-1.17.0",
   "resourceloader": "1.5.3",
+  "ftbmoney": "1.1.0.42",
   "mantle": "1.12-1.3.3.55",
   "mcp": "9.42",
   "ctm": "MC1.12.2-1.0.2.31",

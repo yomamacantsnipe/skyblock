@@ -21,12 +21,16 @@
 
   "buttons": {
     "singleplayer": {
-      "text": "menu.singleplayer",
       "posX": 5,
-      "posY": -35,
-      "width": 89,
+      "posY": 40,
+      "width": 100,
       "height": 20,
-      "alignment": "left_center",
+      "text": "Singleplayer     ",
+      "hoverText": "     Singleplayer",
+      "imageWidth": 150,
+      "imageHeight": 20,
+      "alignment": "left_top",
+      "texture": "mainmenu:textures/blankbutton.png",
       "action": {
         "type": "openGui",
         "gui": "singleplayer"
@@ -34,12 +38,16 @@
     },
 
     "multiplayer": {
-      "text": "menu.multiplayer",
       "posX": 5,
-      "posY": -10,
-      "width": 89,
+      "posY": 65,
+      "width": 100,
       "height": 20,
-      "alignment": "left_center",
+      "text": "Multiplayer       ",
+      "hoverText": "     Multiplayer  ",
+      "imageWidth": 150,
+      "imageHeight": 20,
+      "alignment": "left_top",
+      "texture": "mainmenu:textures/blankbutton.png",
       "action": {
         "type": "openGui",
         "gui": "multiplayer"
@@ -47,12 +55,16 @@
     },
 
     "mods": {
-      "text": "fml.menu.mods",
       "posX": 5,
-      "posY": 15,
-      "width": 89,
+      "posY": 90,
+      "width": 100,
       "height": 20,
-      "alignment": "left_center",
+      "text": "Mods               ",
+      "hoverText": "     Mods          ",
+      "imageWidth": 150,
+      "imageHeight": 20,
+      "alignment": "left_top",
+      "texture": "mainmenu:textures/blankbutton.png",
       "action": {
         "type": "openGui",
         "gui": "mods"
@@ -60,15 +72,16 @@
     },
 
     "options": {
-      "text": "",
       "posX": 5,
-      "posY": 65,
-      "width": 20,
+      "posY": 115,
+      "width": 100,
       "height": 20,
-      "imageWidth": 20,
+      "text": "Options            ",
+      "hoverText": "     Options       ",
+      "imageWidth": 150,
       "imageHeight": 20,
-      "alignment": "left_center",
-      "texture": "mainmenu:textures/gear.png",
+      "alignment": "left_top",
+      "texture": "mainmenu:textures/blankbutton.png",
       "action": {
         "type": "openGui",
         "gui": "options"
@@ -76,27 +89,32 @@
     },
 
     "quit": {
-      "text": "",
-      "posX": 74,
-      "posY": 65,
-      "width": 20,
+      "posX": 5,
+      "posY": 190,
+      "width": 100,
       "height": 20,
-      "imageWidth": 20,
+      "text": "Quit                ",
+      "hoverText": "     Quit           ",
+      "imageWidth": 150,
       "imageHeight": 20,
-      "alignment": "left_center",
-      "texture": "mainmenu:textures/quit.png",
+      "alignment": "left_top",
+      "texture": "mainmenu:textures/blankbutton.png",
       "action": {
         "type": "quit"
       }
     },
 
     "language": {
-      "text": "",
-      "posX": 28,
-      "posY": 65,
-      "width": 20,
+      "posX": 5,
+      "posY": 165,
+      "width": 100,
       "height": 20,
-      "alignment": "left_center",
+      "text": "Languages       ",
+      "hoverText": "     Languages  ",
+      "imageWidth": 150,
+      "imageHeight": 20,
+      "alignment": "left_top",
+      "texture": "mainmenu:textures/blankbutton.png",
       "action": {
         "type": "openGui",
         "gui": "languages"
@@ -104,27 +122,31 @@
     },
 
     "refresh": {
-      "text": "",
-      "posX": 51,
-      "posY": 65,
-      "width": 20,
+      "posX": -5,
+      "posY": -60,
+      "width": 80,
       "height": 20,
-      "imageWidth": 20,
+      "text": "",
+      "hoverText": "Refresh",
+      "imageWidth": 150,
       "imageHeight": 20,
-      "alignment": "left_center",
-      "texture": "mainmenu:textures/reload.png",
+      "alignment": "bottom_left",
+      "texture": "mainmenu:textures/blankbutton.png",
       "action": {
         "type": "refresh"
       }
     },
     "Github": {
-      "text": "Issue Tracker",
-      "hoverText": "Github",
-      "alignment": "left_center",
       "posX": 5,
-      "posY": 40,
-      "width": 89,
+      "posY": 140,
+      "width": 100,
       "height": 20,
+      "text": "Issue Tracker   ",
+      "hoverText": "     Issue Tracker",
+      "imageWidth": 150,
+      "imageHeight": 20,
+      "alignment": "left_top",
+      "texture": "mainmenu:textures/blankbutton.png",
       "action": {
         "type": "openLink",
         "link": "https://github.com/yomamacantsnipe/skyblock/issues"
